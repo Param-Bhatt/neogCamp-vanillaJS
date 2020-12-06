@@ -1,13 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
-        <script src="app.js" type="text/javascript"></script>
-        <title>Minion Speak</title>
-    </head>
-    <body>
-        <h5> Minions!!!
-        </h5>
-    </body>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minion speak</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+    <h1>Minion Speak</h1>
+            
+    <div class="row">
+        <div class="column">
+            <div style="font-size: larger;">Input goes here 👇</div>
+            <textarea id="txt-input"
+                placeholder="Put your sentence in English here and we will convert it to minion speak"></textarea>
+            <button id="btn-translate">Translate</button>
+            <div class="svg-human">
+                <img src="SVG/graduate-student-with-graduation-cap-toga-and-tie.svg">
+            </div>
+        </div>
+        <div class="column">
+            <div style="font-size: larger;"> Output will come here 👇</div>
+            <div id="output"></div>
+            <div class="svg-minion">
+                <img src="SVG/minions-svgrepo-com.svg">
+            </div>
+        </div>
+
+    </div>
+</body>
+
 </html>
